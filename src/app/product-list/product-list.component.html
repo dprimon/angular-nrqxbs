@@ -1,5 +1,14 @@
 <h2>Prodotti</h2>
 
+<div *ngFor="let product of products">
+   <h3>
+      <a [title]="'Ddettagli ' + product.name">
+         {{product.name}}
+      </a>
+    </h3>
+
+
+</div>
 
 <!-- 
 Copyright Google LLC. All Rights Reserved.
